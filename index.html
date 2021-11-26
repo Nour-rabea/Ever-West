@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="icon" type="image/png" href="media/favicon.png">
 
   <title>Loading the map...</title>
 
@@ -74,9 +74,9 @@
     var map = L.map('map', {
       attributionControl: false,
       zoomControl: false,
-      scrollWheelZoom: false,
+      scrollWheelZoom: true,
       tap: false
-    }).setView([41.76,-72.69], 11); // default center is overridden by Google Sheet options and points
+    }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
   </script>
 
   <script type="text/javascript" src="./google-doc-url.js"></script>
