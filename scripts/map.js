@@ -127,9 +127,13 @@ $(window).on('load', function() {
 
       if (point.Latitude !== '' && point.Longitude !== '') {
         var marker = L.marker([point.Latitude, point.Longitude], {icon: icon})
-          .bindPopup("<b>" + point['Name'] + '</b><br>' +
+          .bindPopup("<b>" + point['Project'] + '</b><br>' +
+          point['Developer'] + '</b><br>' +
           (point['Image'] ? ('<img src="' + point['Image'] + '"><br>') : '') +
-          point['Description']);
+          point['Hotline'] + '</b><br>' +
+          point['Website'] + '</b><br>' +
+          point['Brochure'] + '</b><br>' +
+          point['Head Offices']);
 
         if (layers !== undefined && layers.length !== 1) {
           marker.addTo(layers[point.Group]);
@@ -902,7 +906,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
+    var credit = 'View <a href="https://www.castle-development.com"' target='_blank'>data</a>';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
 
