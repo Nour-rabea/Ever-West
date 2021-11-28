@@ -10,7 +10,8 @@
         "fill": "#2b00ff",
         "fill-opacity": 0.5,
         "Name": "مدينة الشيخ زايد",
-        "Area": "10,386.75 Acre"
+        "Area": "10,386.75 Acre",
+        "Prices": "10,400"
       },
       "geometry": {
         "type": "Polygon",
@@ -113,7 +114,8 @@
         "fill": "#ff0000",
         "fill-opacity": 0.5,
         "Name": "الحزام الاخضر",
-        "Area": "17,021 Acre"
+        "Area": "17,021 Acre",
+        "Prices": "فلل"
       },
       "geometry": {
         "type": "Polygon",
@@ -164,7 +166,8 @@
         "fill-opacity": 0.5,
         "stroke-width": "",
         "Name": "الثورة الخضراء",
-        "Area": "2,584 Acre"
+        "Area": "2,584 Acre",
+        "Prices": "15,100"
       },
       "geometry": {
         "type": "Polygon",
@@ -215,7 +218,8 @@
         "fill": "#00ff04",
         "fill-opacity": 0.5,
         "Name": "امتداد الشيخ زايد",
-        "Area": "8,336 Acre"
+        "Area": "8,336 Acre",
+        "Prices": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -274,7 +278,8 @@
         "fill": "#00ff04",
         "fill-opacity": 0.5,
         "Name": "التوسعات الشرقية",
-        "Area": ""
+        "Area": "",
+        "Prices": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -369,7 +374,8 @@
         "fill": "#ff00ea",
         "fill-opacity": 0.5,
         "Name": "حدائق اكتوبر",
-        "Area": "27,000  Acre"
+        "Area": "27,000  Acre",
+        "Prices": "4,850"
       },
       "geometry": {
         "type": "Polygon",
@@ -452,7 +458,8 @@
         "fill": "#ff00ae",
         "fill-opacity": 0.5,
         "Name": "حدائق الاهرام",
-        "Area": "1,557 Acre"
+        "Area": "1,557 Acre",
+        "Prices": "4,350"
       },
       "geometry": {
         "type": "Polygon",
@@ -515,7 +522,8 @@
         "fill": "#ff0000",
         "fill-opacity": 0.5,
         "Name": "مدينة 6 اكتوبر الجديده",
-        "Area": "90,000"
+        "Area": "90,000",
+        "Prices": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -574,7 +582,8 @@
         "fill": "#002aff",
         "fill-opacity": 0.5,
         "Name": "مدينة 6 اكتوبر",
-        "Area": "52,000"
+        "Area": "52,000",
+        "Prices": "7,750"
       },
       "geometry": {
         "type": "Polygon",
@@ -653,7 +662,8 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "Prices": "سعر المتر داخل كمبوند :من 10.000 الي 40.000 نظام السداد داخل كمبوند 5% مقدم و اقساط علي 9 سنين  سعر المتر خارج كمبوند :من 3.950 الي 8.500 نظام السداد خارج كمبوند: 10% مقدم و اقساط تصل الي 7.5 سنوات "
+        "Prices": "4,750",
+        "Area": "سعر المتر داخل كمبوند :من 10.000 الي 40.000 نظام السداد داخل كمبوند 5% مقدم و اقساط علي 9 سنين  سعر المتر خارج كمبوند :من 3.950 الي 8.500 نظام السداد خارج كمبوند: 10% مقدم و اقساط تصل الي 90 شهر"
       },
       "geometry": {
         "type": "Polygon",
