@@ -19,7 +19,7 @@ h3 {
 
 h5 {
   margin: 0;
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: normal;
 }
 
@@ -39,9 +39,9 @@ h6 {
 
 .leaflet-control-custom {
   padding: 6px 8px;
-  background: white;
+  background: black;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-  color: #333;
+  color: #ffffff;
   border-radius: 5px;
 }
 
@@ -56,7 +56,7 @@ form {
 .polygons-legend-scale {
   margin-top: 4px;
   padding-top: 7px;
-  border-top: dotted 3px #eee;
+  border-top: dotted 3px #ffffff;
 }
 
 .polygons-legend-scale i {
@@ -165,7 +165,7 @@ form {
   left: 10vw;
   width: 70vw;
   z-index: 1000;
-  background: white;
+  background: black;
   padding: 1vh 5vw;
   opacity: 0.9;
   border: 5px #ddd solid;
