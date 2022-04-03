@@ -253,7 +253,7 @@ div.dataTables_scrollHead {
 }
 
 .dataTable * {
-  font-family: "Helvetica Neue", Arial;
+  font-family: "Helvetica Neue", el messiri;
   border: 0 !important;
 }
 
@@ -284,7 +284,7 @@ span.legend-arrow {
 }
 
 span.legend-icon {
-  color: #bbb;
+  color: #00000;
   margin-right: 5px;
 }
 
