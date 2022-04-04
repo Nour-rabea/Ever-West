@@ -254,6 +254,8 @@ $(window).on('load', function() {
         }
         return c;
       }
+      
+      tableData.onclick = function(){document.getElementById("demo").style.color = "red";};
 
       // Initialize DataTable
       var table = $('#maptable').DataTable({
