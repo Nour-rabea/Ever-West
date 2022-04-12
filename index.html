@@ -68,18 +68,7 @@
 
   <div class="loader">Loading...</div>
   <div id="map"></div>
-  <table id="maptable" class="display" onclick="Zoom()"></table>
-  
-  <script>
-  function Zoom() {
-    document.getElementById("maptable").innerHTML = "Hello Mother Fucker";
-    let x = document.getElementById("maptable");
-    x.style.fontSize = "15px";
-    x.style.color = "red";
-    document.getElementById("map").setView([32.00,34.96], 11);
-  }
-</script>
-  
+  <table id="maptable" class="display" onclick="centerAndZoomMap(points)"></table>
 
   <script type="text/javascript">
     var map = L.map('map', {
