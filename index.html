@@ -68,7 +68,7 @@
 
   <div class="loader">Loading...</div>
   <div id="map"></div>
-  <table id="maptable" class="display"></table>
+  <table id="maptable" class="display" onclick="myFun()"></table>
 
   <script type="text/javascript">
     var map = L.map('map', {
@@ -78,6 +78,17 @@
       tap: false
     }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
   </script>
+  
+  <script>
+    function myFun() {
+      let x = document.getElementById("map");
+      var lat = map.getCenter().lat, latSet = false;
+      var lon = map.getCenter().lng, lonSet = false;
+      var zoom = 12, zoomSet = false;
+      var center;
+    }
+  </script>
+
 
   <script type="text/javascript" src="./google-doc-url.js"></script>
   <script type="text/javascript" src="./scripts/constants.js"></script>
