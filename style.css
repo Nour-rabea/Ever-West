@@ -100,6 +100,13 @@ form {
  height: 100%;
 }
 
+#container
+{
+  text-align: left;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+}
 
 .polygons-legend-scale {
   margin-top: 4px;
