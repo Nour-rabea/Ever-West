@@ -82,9 +82,8 @@
   
   <script>
    function myFunction() {
-     let x = document.getElementById("maptable");
-     x.style.fontSize = "15px"; 
-     x.style.color = "blue"; 
+     document.getElementById("maptable");
+     var displayTable = getSetting('_displayTable') == 'on' ? true : false; 
     }
     //'Display Table'
   </script>  
