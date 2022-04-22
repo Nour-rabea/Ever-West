@@ -79,10 +79,10 @@ form {
   transition: 0.8s;
   position: relative;
   overflow: hidden;
-  color: #fff;
+  color: #3498db;
 }
 .btn:hover{
- color: #3498db;
+ color: #fff;
 }
 .btn::before{
  content: "";
