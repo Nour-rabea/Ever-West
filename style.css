@@ -104,8 +104,8 @@ form {
 {
   text-align: left;
   position: fixed;
-  right: 5%;
-  top: 5%;
+  right: 0%;
+  top: 0%;
 }
 
 .polygons-legend-scale {
