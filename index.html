@@ -68,9 +68,7 @@
 
   <div class="loader">Loading...</div>
   <div id="map"></div>
-  <div id="container">
-    <button class="btn" onclick="myFunction()">Table Data</button>
-  </div>
+  
   <table id="maptable" class="display" onclick="myFun()"></table>
 
   <script type="text/javascript">
@@ -81,6 +79,10 @@
       tap: false
     }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
   </script>
+  
+    <div id="container">
+    <button class="btn" onclick="myFunction()">Table Data</button>
+  </div>
   
   <script>
    function myFunction() {
