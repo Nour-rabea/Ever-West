@@ -70,7 +70,7 @@
   <div id="map">
   <button id="container" class="btn" onclick="myFunction()">Table Data</button>
     </div>
-<table id="maptable" class="display"></table>
+<table id="maptable" class="display" onclick="myFun()></table>
 
   <script type="text/javascript">
     var map = L.map('map', {
@@ -84,15 +84,17 @@
   <script>
    function myFunction() {
      document.getElementById("maptable");
-     var displayTable = getSetting('_displayTable') == 'on' ? true : false; 
+     x.style.fontSize = "20px";
+      x.style.color = "red";
     }
-    //'Display Table'
   </script>  
   
   <script>
     function myFun() {
-  document.getElementById("map").setView(center, zoom);
-}
+  document.getElementById("maptable");
+     x.style.fontSize = "20px";
+      x.style.color = "blue";
+    }
   </script>
 
 
