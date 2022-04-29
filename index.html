@@ -65,35 +65,18 @@
 </head>
 
 <body>
+
   <div class="loader">Loading...</div>
-  <div id="map">
-  <button id="container" class="btn" onclick="myFunction()">Table Data</button>
-  </div>
-  
-  <table id="maptable" class="display" onclick="myFun()"></table>
+  <div id="map"></div>
+  <table id="maptable" class="display"></table>
 
   <script type="text/javascript">
     var map = L.map('map', {
       attributionControl: false,
       zoomControl: false,
-      scrollWheelZoom: true,
-      tap: false
-    }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
+      scrollWheelZoom: true
+    }).setView([41.76,-72.69], 11); // default center is overridden by Google Sheet options and points
   </script>
-  
-  <script>
-   function myFunction() {
-     document.getElementById("maptable");
-     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
-   }
-  </script>  
-  
-  <script>
-    function myFun() {
-      document.getElementById("map").setView(center, zoom);
-    }
-  </script>
-  
 
   <script type="text/javascript" src="./google-doc-url.js"></script>
   <script type="text/javascript" src="./scripts/constants.js"></script>
