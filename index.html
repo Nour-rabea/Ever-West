@@ -68,7 +68,8 @@
   <div class="loader">Loading...</div>
   <div id="map">
   <button id="container" class="btn" onclick="myFunction()">Table Data</button>
-  </div> 
+  </div>
+  
   <table id="maptable" class="display" onclick="myFun()"></table>
 
   <script type="text/javascript">
@@ -78,6 +79,19 @@
       scrollWheelZoom: true,
       tap: false
     }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
+  </script>
+  
+  <script>
+   function myFunction() {
+     document.getElementById("maptable");
+     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
+   }
+  </script>  
+  
+  <script>
+    function myFun() {
+      document.getElementById("map").setView(center, zoom);
+    }
   </script>
   
 
