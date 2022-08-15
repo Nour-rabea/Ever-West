@@ -77,7 +77,7 @@ form {
   cursor: pointer;
   margin: 10px;
   transition: 0.8s;
-  position: fixed;
+  position: relative;
   overflow: hidden;
   color: #8b1515;
 }
