@@ -69,7 +69,7 @@
 <!--hide
 var password;
 var pass1="16533";
-password=prompt('You Have To Get Permission or Be a Family Member','');
+password=prompt('Password...','');
 if (password==pass1);
 else {
   window.location="https://nour-rabea.github.io/October/";
@@ -79,9 +79,11 @@ else {
 
   <div class="loader">Loading...</div>
   <div id="map">
-  <button id="container" class="btn" onclick="myFunction()">Table Data</button>
     </div>
-<table id="maptable" class="display" onclick="myFun()"></table>
+  
+  <table id="maptable" class="display" onclick="addRowHandlers()"></table>
+  <button id="container" class="btn" onclick="myFunction()">Data Table</button>
+
 
   <script type="text/javascript">
     var map = L.map('map', {
@@ -92,13 +94,11 @@ else {
     }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
   </script>
 
-  <script>
-    function myFun() {
-  let x = document.getElementById("maptable");
-     x.style.fontSize = "15px";
-      x.style.color = "blue";
-    }
-  </script>
+<script>
+function myFun() {
+  map.flyTo([30.002088,30.969116], 15);
+}
+</script>
 
   <script>
 function myFunction() {
@@ -107,6 +107,32 @@ function myFunction() {
   x.style.color = "red"; 
 }
 </script>
+  
+  <script>
+function addRowHandlers() {
+  var table = document.getElementById("maptable");
+  var rows = table.getElementsByTagName("tr");
+  for (i = 0; i < rows.length; i++) {
+    var currentRow = table.rows[i];
+    var createClickHandler = function(row) {
+      return function() {
+        ///console.log(e);
+        ///console.log($(this).html());
+        ///console.log($(e).html());
+        ///var lat = $(this).attr('data-latitude');
+        ///var lng = $(this).attr('data-longitude');
+            map.flyTo([30.002088,30.969116], 15, { animate:true, duration:3 } )
+        ///});
+        ///var cell = row.getElementsByTagName("td")[0];
+        ///var id = cell.innerHTML;
+        ///alert("id:" + id);
+      };
+    };
+    currentRow.onclick = createClickHandler(currentRow);
+  }
+}
+</script>
+  
 
   <script type="text/javascript" src="./google-doc-url.js"></script>
   <script type="text/javascript" src="./scripts/constants.js"></script>
