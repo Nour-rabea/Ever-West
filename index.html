@@ -119,9 +119,9 @@ function addRowHandlers() {
         ///console.log(e);
         ///console.log($(this).html());
         ///console.log($(e).html());
-        ///var lat = $(this).attr('data-latitude');
-        ///var lng = $(this).attr('data-longitude');
-            map.flyTo([30.002088,30.969116], 15, { animate:true, duration:3 } )
+        var lat = row.getElementsByTagName("td")[11].innerHTML;
+        var lon = row.getElementsByTagName("td")[12].innerHTML;
+            map.flyTo([lat,lon], 15, { animate:true, duration:3 } )
         ///});
         ///var cell = row.getElementsByTagName("td")[0];
         ///var id = cell.innerHTML;
