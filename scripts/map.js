@@ -8,7 +8,7 @@ $(window).on('load', function() {
   var completePoints = false;
   var completePolygons = false;
   var completePolylines = false;
-}
+
   /**
    * Returns an Awesome marker with specified parameters
    */
