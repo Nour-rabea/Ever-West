@@ -94,6 +94,11 @@
       scrollWheelZoom: true,
       tap: false
     }).setView([30.00,30.96], 11); // default center is overridden by Google Sheet options and points
+
+          var imageUrl = 'media/Evesjddr Masterplan 03-09-2023.png',
+   	imageBounds = [[30.00261057433003, 30.964877735753902], [29.99936753205223, 30.968890630645248],
+     [30.002336587932106, 30.972919406616146],[30.005060786741346, 30.97019297183146]];
+	L.imageOverlay(imageUrl, imageBounds).addTo(map);
   </script>
 
 <script>
