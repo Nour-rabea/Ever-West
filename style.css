@@ -338,7 +338,8 @@ span.legend-icon {
   width: 180px;
   margin-top: 0 !important;
   overflow: hidden;
-  background-color: black;
+  background-color: #0a1047;
+  color: white;
 }
 
 .ladder h6.minimize ~ div,
