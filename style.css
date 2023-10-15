@@ -133,7 +133,7 @@ form {
 
 .leaflet-popup-content img {
   width: 100%;
-  margin: 5px 0 5px 0;
+  margin: -200px 0 5px 0;
 }
 
 .geojson-point-marker {
