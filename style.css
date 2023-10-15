@@ -16,7 +16,6 @@ h3 {
   padding: 5px;
   margin: 0;
   font-size: 3em;
-  font-size: 35px;
   font-family: impact;
 }
 
@@ -264,7 +263,7 @@ form {
   left: 0;
   color: #ffffff;
   font-weight: bold;
-  opacity: 0.9;
+  opacity: 1;
   pointer-events: none !important;
 }
 
@@ -276,18 +275,18 @@ form {
 }
 
 .markers-legend-icon {
-  height: 12px;
+  height: 0px;
   vertical-align: middle;
 }
 
 .map-title {
   margin-top: 0 !important;
-  margin-bottom: 10px;
-  max-width: 450px;
+  margin-bottom: px;
+  max-width: 154px;
 }
 
 .leaflet-top.leaflet-left {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 /* Map Table */
