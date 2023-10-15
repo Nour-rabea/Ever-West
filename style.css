@@ -226,7 +226,7 @@ form {
   left: 10vw;
   width: 70vw;
   z-index: 1000;
-  background: white;
+  background: #ffffff00;
   padding: 1vh 5vw;
   opacity: 0.9;
   border: 5px #ddd solid;
@@ -338,6 +338,7 @@ span.legend-icon {
   width: 180px;
   margin-top: 0 !important;
   overflow: hidden;
+  background-color: black;
 }
 
 .ladder h6.minimize ~ div,
