@@ -828,7 +828,9 @@ $(window).on('load', function() {
           }).addTo(map);
 
           if (p[index]['Description'] && p[index]['Description'] != '') {
-            line.bindPopup(p[index]['Description']);
+            line
+              //.bindPopup(p[index]['Description']);
+              .bindTooltip(p[index]['Description']);
           }
 
           polylinesLegend.addOverlay(line,
