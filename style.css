@@ -349,5 +349,5 @@ span.legend-icon {
 }
 
 .ladder form, .ladder div {
-  display: inline-block;
+  display: block;
 }
