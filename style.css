@@ -14,20 +14,15 @@ body {
 
 h3 {
   padding: 5px;
+  margin: 0;
   font-size: 3em;
-  font-feature-settings: "smcp", "zero";
   font-family: impact;
-  color:rgb(255 255 255);
 }
 
 h5 {
   margin: 0;
-  padding: 0px;
-  font-size: 1.2em;
-  font-family: system-ui;
-  font-weight: bold;
-  color:rgb(255 255 255);
-
+  font-size: 1.0em;
+  font-weight: normal;
 }
 
 h6 {
