@@ -345,9 +345,9 @@ span.legend-icon {
 .ladder h6.minimize ~ div,
 .ladder h6.minimize ~ form,
 .ladder h6.minimize ~ section {
-  display: inline-block !important;
+  display: none !important;
 }
 
 .ladder form, .ladder div {
-  display: none;
+  display: inline-block;
 }
