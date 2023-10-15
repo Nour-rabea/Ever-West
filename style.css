@@ -348,7 +348,3 @@ span.legend-icon {
 .ladder h6.minimize ~ section {
   display: none !important;
 }
-
-.ladder form, .ladder div {
-  display: block;
-}
